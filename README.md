@@ -28,4 +28,14 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sharegamer&" alt="sharegamer" /></p>
 
-
+<script type="module">
+import { PacmanRenderer } from 'https://cdn.jsdelivr.net/npm/pacman-contribution-graph/dist/pacman-contribution-graph.min.js';
+const pr = new PacmanRenderer({
+    platform: 'github',
+    username: 'sharegamer',
+    canvas: document.getElementById('canvas'),
+    outputFormat: 'canvas',
+    gameTheme: 'github'
+});
+pr.start();
+</script>
